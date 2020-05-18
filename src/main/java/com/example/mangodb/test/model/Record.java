@@ -20,6 +20,9 @@ public class Record {
 		this.memberDetails = memberDetails;
 		this.claimDetails = claimDetails;
 	}
+	public Record() {
+		// TODO Auto-generated constructor stub
+	}
 	public RecordInfo getRecordInfo() {
 		return recordInfo;
 	}
